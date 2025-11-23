@@ -723,8 +723,7 @@ const UserContext: NavContextMenuPatchCallback = (children, { user, guildId }: U
 export default definePlugin({
     name: "AutoNicknameChanger",
     description: "Automatically enforces specific nicknames for users. When a user changes their nickname, it will be automatically changed back to the configured nickname.",
-    authors: [{ name: "penthe", id: 0n }],
-
+    authors: [{ id: 1242811215110082584n, name: "Jeasus" }, { name: "emirvaki", id: 1357545010848989247n }],
     settings,
 
     contextMenus: {
